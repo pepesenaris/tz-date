@@ -4,7 +4,7 @@ babel-runtime@0.1.4
 base64@1.0.4
 caching-compiler@1.0.0
 check@1.0.6
-coffeescript@1.0.10
+coffeescript@2.2.1_1
 ecmascript@0.1.5
 ecmascript-collections@0.1.6
 ejson@1.0.7

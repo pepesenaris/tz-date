@@ -8,6 +8,7 @@ class TimeZoneDate extends Date
 
   constructor: ->
     args = Array.prototype.slice.call(arguments)
+    super(args...)
     lastArg = args[args.length - 1]
     timeZone = undefined
     if args.length > 1 && (!lastArg? || typeof lastArg == 'string')
