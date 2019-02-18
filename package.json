@@ -1,6 +1,6 @@
 {
   "name": "@pepesenaris/tz-date",
-  "version": "0.2.3",
+  "version": "0.3.1",
   "description": "A Date class in JavaScript with support for time zones. Forked from https://github.com/aramk/tz-date",
   "author": "Aram Kocharyan <akarmenia@gmail.com>",
   "directories": {
@@ -13,6 +13,7 @@
     "url": "https://github.com/pepesenaris/tz-date.git"
   },
   "dependencies": {
+    "coffe": "0.0.1",
     "moment-timezone": "^0.3.1",
     "underscore": "^1.8.3"
   },

@@ -82,6 +82,7 @@ class TimeZoneDate extends Date
       str
     else
       @_moment.toDate().toString()
+  timestamp: -> @_moment.unix()
   valueOf: -> @_moment.toDate().getTime()
   toJSON: -> @toString()
 
